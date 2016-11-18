@@ -1,0 +1,17 @@
+body {
+    background: #779BF4;
+    color: #fff;
+}
+div::after {
+    background:#C0C0C0;
+    width:300px;
+    height:300px;
+    display:block;
+    border:solid 2px #0147A7;
+    border-radius: 8px;
+    font-weight: bold;
+    color:#000;
+    content:"Webpack";
+    padding-top: 100px;
+    margin:0 auto;
+}
