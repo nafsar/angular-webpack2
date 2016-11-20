@@ -2,6 +2,10 @@ body {
     background: #779BF4;
     color: #fff;
 }
+h1{
+    float:left;
+}
+/*
 div::after {
     background:#C0C0C0;
     width:300px;
@@ -15,3 +19,42 @@ div::after {
     padding-top: 100px;
     margin:0 auto;
 }
+*/
+div {
+    width: 300px;
+    height: 200px;
+    margin-top:100px;
+    color:#fff;
+    content:"Webpack";
+    padding-top: 100px;
+
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: webpack; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: webpack;
+    animation-duration: 5s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes webpack {
+    0%   {background-color:red; left:0px; top:0px;}
+    15%  {background-color:#C0C0C0; left:100px; top:100px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:black; left:200px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+
+}
+
+
+@keyframes webpack {
+    0%   {background-color:red; left:auto; top:0px;}
+    15%  {background-color:#C0C0C0; left:100px; top:100px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    85%  {background-color:black; left:200px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
