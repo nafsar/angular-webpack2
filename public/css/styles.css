@@ -31,7 +31,7 @@ div {
     background-color: red;
     position: relative;
     -webkit-animation-name: webpack; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
     animation-name: webpack;
     animation-duration: 5s;
 }
