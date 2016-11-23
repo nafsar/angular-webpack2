@@ -5,6 +5,6 @@ To compile and run
 - npm install
 - npm run build
 - npm start
-- use of WEB browser (chrome, firefox: type in http://localhost:8080
+- WEB browser (chrome, firefox): type in http://localhost:8080
 + http://uiux.biz/angular2Webpack/
 
