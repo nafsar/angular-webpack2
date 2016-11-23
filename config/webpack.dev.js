@@ -7,7 +7,7 @@ module.exports = webpackMerge(commonConfig, {
   devtool: 'cheap-module-eval-source-map',
 
   output: {
-    path: helpers.root('dist'),
+    path: helpers.root('angular2Webpack'),
     publicPath: 'http://localhost:8080/',
     filename: '[name].js',
   },
