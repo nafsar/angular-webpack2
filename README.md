@@ -6,5 +6,5 @@ To compile and run
 - npm run build
 - npm start
 - use choice of browser: type in http://localhost:8080
-+ http://uiux.biz/angular2Webpack/
++ http://uiux.biz/angularWebpack/
 
